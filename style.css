@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imgs/nature.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input{
+    text-align: center;
+    margin: 100px 0;
+
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 600px;
+    background: #e7e7e7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    padding:10px 15px ;
+}
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background: #e7e7e7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+} 
+
+.display{
+    text-align: center;
+    background-color: black;
+    margin-left: 40%;
+    width: 20%;
+    align-items: center;
+    color:pink;
+    position: absolute;
+}
+.footer{
+    margin-top: 30%;
+    text-align: center;
+    color:rgb(195, 255, 172);
+    position: relative;
+}
